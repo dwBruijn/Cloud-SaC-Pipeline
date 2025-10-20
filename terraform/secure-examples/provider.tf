@@ -6,6 +6,10 @@ terraform {
       source  = "hashicorp/google"
       version = "~> 5.0"
     }
+    random = {
+      source  = "hashicorp/random"
+      version = "~> 3.5"
+    }
   }
 
   backend "local" {
@@ -17,3 +21,5 @@ provider "google" {
   project = var.project_id
   region  = var.region
 }
+
+provider "random" {}
