@@ -20,8 +20,8 @@ Automatically scans Infrastructure-as-Code for 50+ security issues including:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/security-as-code-pipeline
-cd SaC-pipeline
+git clone https://github.com/dwBruijn/Cloud-SaC-Pipeline
+cd Cloud-SaC-Pipeline
 
 # Install dependencies
 pip install -r requirements.txt
@@ -39,7 +39,8 @@ python scripts/scan.py --path terraform/vulnerable-examples
 ## 📊 Live Examples
 
 Check out these demonstration PRs showing the pipeline in action:
-- **PR #1**: [Catching vulnerabilities in code review](https://github.com/dwBruijn/SaC-pipeline/pull/1)
+- **PR #1: vulnerable infrastructure**: [Catching vulnerabilities in code review](https://github.com/dwBruijn/Cloud-SaC-Pipeline/pull/1)
+- **PR #2: secure infrastructure**: [Fixed vulnerabilities and misconfigurations](https://github.com/dwBruijn/Cloud-SaC-Pipeline/pull/2)
 
 ## 🏗️ Architecture
 
