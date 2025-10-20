@@ -1,0 +1,47 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.tfplan.binary
+*.tfplan.json
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Security scan results
+*.sarif
+security-report.md
+scan-results/
+
+# Logs
+*.log
+
+# Secrets (just in case)
+*.pem
+*.key
+.env
+secrets/
